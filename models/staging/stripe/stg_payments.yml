@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_payments
+    description: Stage data for payments from strip
+    columns:
+      - name: payment_method
+        description: "{{ doc('paymet_method') }}"
+ 
